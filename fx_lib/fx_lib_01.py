@@ -32,7 +32,7 @@ class TN_Fx(QMainWindow, fx_lib_ui_ps2.Ui_MainWindow):
         self.setWindowTitle("aaaaa")
         path = "O:/08_FX/01_Scene/assetlib/master/3D/F/_Icon/TN_FireChacoal_Fx_A.JPG"
         self.toolButton.setIcon(QIcon(path))
-        self.toolButton.clicked.connect(self.func)
+
 
 
 
